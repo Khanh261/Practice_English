@@ -10,7 +10,7 @@
         android:id="@+id/view4"
         android:layout_width="wrap_content"
         android:layout_height="130dp"
-        android:background="@drawable/background_bottom"
+        android:background="@drawable/botuvungbg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,7 +22,7 @@
         android:layout_height="250dp"
 
         android:layout_marginTop="4dp"
-        android:background="@drawable/rounded_box_2"
+        android:background="@drawable/botuvungbg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"

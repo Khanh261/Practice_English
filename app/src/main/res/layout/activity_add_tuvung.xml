@@ -83,7 +83,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:backgroundTint="#fece2f"
+                android:backgroundTint="#32d780"
                 android:fontFamily="@font/bungee"
                 android:text="Chọn hình"
                 android:textColor="#000"

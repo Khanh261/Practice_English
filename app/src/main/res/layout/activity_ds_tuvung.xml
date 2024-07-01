@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_dstuvung"
+    android:background="@drawable/botuvungbg"
     android:orientation="vertical"
     android:weightSum="10"
     tools:context=".hoctuvung.DSTuVungActivity">
@@ -62,7 +62,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="0dp"
         android:layout_weight="1"
-        android:backgroundTint="@color/colorPrimary"
+        android:backgroundTint="@color/teal_700"
         android:paddingBottom="10dp"
         android:text="Ôn Tập"
         android:textAllCaps="false"

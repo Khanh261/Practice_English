@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/yellowbackground"
+    android:background="@drawable/botuvungbg"
     tools:context=".sapxepcau.SapXepCauActivity">
 
     <TextView
@@ -16,7 +16,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="5dp"
         android:text="Arrange The Sentences"
-        android:textColor="@color/colorPrimary2"
+        android:textColor="@color/white"
         android:textSize="25sp"
 
         />
@@ -35,7 +35,7 @@
         android:focusable="false"
         android:gravity="center"
         android:padding="10dp"
-        android:textColor="@color/colorPrimary2"
+        android:textColor="@color/black"
         android:textSize="30dp" />
 
     <LinearLayout
@@ -48,7 +48,7 @@
             android:id="@+id/textOption"
             android:text="Option"
             android:textSize="24sp"
-            android:textColor="@color/colorPrimary2"
+            android:textColor="@color/white"
             android:layout_marginRight="0dp"
             android:layout_width="wrap_content"
             android:layout_weight="1"

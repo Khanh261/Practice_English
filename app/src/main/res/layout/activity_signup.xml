@@ -5,6 +5,8 @@
     app:layoutDescription="@xml/login_motion"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/botuvungbg"
+
     tools:context=".taikhoan.LoginActivity">
 
     <ImageView
@@ -20,13 +22,13 @@
         />
 
     <ImageView
-        android:rotation="180"
+        android:rotation="0"
         android:id="@+id/imageView_logoRays"
         android:layout_width="130dp"
         android:scaleType="centerInside"
         android:layout_height="130dp"
         android:layout_marginTop="80dp"
-        android:background="@drawable/icon2"
+        android:background="@drawable/icon3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -158,10 +160,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:background="@drawable/login_button_bg"
-            android:backgroundTint="@color/colorPrimary"
             android:text="Đăng Ký"
             android:textColor="@color/white"
-            app:backgroundTint="#FFB20C" />
+            app:backgroundTint="@color/teal_700" />
 
     </LinearLayout>
 

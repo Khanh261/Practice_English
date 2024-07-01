@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/yellowbackground">
+    android:background="@drawable/botuvungbg">
 
     <ImageView
         android:id="@+id/imgtrophy"
@@ -90,15 +90,17 @@
         android:layout_below="@id/tvPoints"
         android:fontFamily="@font/fredokaoneregular"
         android:textColor="@color/black"
-        ></TextView>
+        />
     <Button
         android:id="@+id/btnReturn"
         android:layout_marginTop="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Return"
+        android:background="@color/teal_700"
+        android:backgroundTint="@color/teal_700"
         android:textSize="30sp"
         android:fontFamily="@font/fredokaoneregular"
         android:layout_below="@id/txtfinaltext"
-        android:layout_centerHorizontal="true"></Button>
+        android:layout_centerHorizontal="true"/>
 </RelativeLayout>

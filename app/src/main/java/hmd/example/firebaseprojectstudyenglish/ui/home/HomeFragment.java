@@ -38,7 +38,6 @@ public class HomeFragment extends Fragment {
         cardViewDienKhuyet= root.findViewById(R.id.cardViewDienKhuyet);
         cardViewTracNghiem= root.findViewById(R.id.cardViewTracNghiem);
         cardViewSapXepCau = root.findViewById(R.id.cardViewSapXepCau);
-        cardViewLuyenNghe = root.findViewById(R.id.cardViewLuyenNghe);
         cardViewXepHang = root.findViewById(R.id.cardViewXepHang);
         cardViewHocTuVung.setOnClickListener(new View.OnClickListener() {
             @Override
