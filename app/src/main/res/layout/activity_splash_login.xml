@@ -5,6 +5,8 @@
     app:layoutDescription="@xml/login_motion"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/botuvungbg"
+
     tools:context=".taikhoan.LoginActivity">
 
     <ImageView
@@ -129,10 +131,10 @@
             android:layout_marginTop="30dp"
             android:fontFamily="sans-serif-medium"
             android:background="@drawable/login_button_bg"
-            android:backgroundTint="@color/colorPrimary"
+            android:backgroundTint="@color/teal_700"
             android:text="Đăng Nhập"
             android:textColor="@color/white"
-            app:backgroundTint="#FFB20C" />
+            app:backgroundTint="@color/teal_700" />
 
     </LinearLayout>
 
